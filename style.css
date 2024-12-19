@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fcc707; 
+  --secondary-color: #292929; 
+  --accent-color: #aeafaf; 
+  --background-color: #ffffff; 
+  --text-color: #6b6b6c; 
+}
+
 body {
   min-height: 100vh;
 }
