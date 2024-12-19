@@ -51,94 +51,38 @@ body {
   }
 
 
-  .video-container {
-    display: grid;
-    background-color: #d9456a;
-    border-color: #453ee3;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-    writing-mode: vertical-lr;
-    font-size:45px
-  }
-
-  .video-container h1 {
-    color:#453ee3
-    }
   
-  .vertical-text {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-    writing-mode: vertical-lr;
-    font-size:45px
-  }
-
-  .video-container iframe {
-    width: 100%;
-    height: auto;
-  }
-
   .titillium-web-black {
     font-family: "Titillium Web", serif;
     font-weight: 900;
     font-style: normal;
   }
-
+  
   .titillium-web-extralight-italic {
     font-family: "Titillium Web", serif;
     font-weight: 200;
     font-style: italic;
   }
-
-  .trusted-companies {
-    background-color: var(--background-color);
-    border: 1px solid red;
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-
-    h3{
-      color: var(--secondary-color);
-    }
-
-    .company-images {
-      display: flex;
-      gap: 5rem;
-    }
-    
-    img {
-      object-fit: cover;
-      width: 100px;
-      height: 100px;
-      border-radius: 10px;
-    }
-  }
-
+  
+  
   .titillium-web-light-italic {
     font-family: "Titillium Web", serif;
     font-weight: 300;
     font-style: italic;
   }
-
+  
   .titillium-web-regular-italic {
     font-family: "Titillium Web", serif;
     font-weight: 400;
     font-style: italic;
   }
-
+  
   .titillium-web-semibold-italic {
     font-family: "Titillium Web", serif;
     font-weight: 600;
     font-style: italic;
   }
-
+  
   .titillium-web-bold-italic {
     font-family: "Titillium Web", serif;
     font-weight: 700;
@@ -160,7 +104,7 @@ body {
 
 .navigation-header {
   color: var(--primary-color);
-
+  
   font-weight: 300;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -186,3 +130,101 @@ li:last-child {
 }
 
 /* end of navigation */
+
+
+.video-container {
+  display: grid;
+  background-color: #d9456a;
+  border-color: #453ee3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  writing-mode: vertical-lr;
+  font-size:45px
+}
+
+.video-container h1 {
+  color:#453ee3
+  }
+
+.vertical-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  writing-mode: vertical-lr;
+  font-size:45px
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Trusted companies section */
+.trusted-companies {
+  background-color: var(--background-color);
+  border: 1px solid red;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+  h3{
+    color: var(--secondary-color);
+  }
+  
+  .company-images {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+}
+/* end of trusted companies section */
+
+/* features section */
+.features-container {
+  border: 1px solid red;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .events {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  figure {
+    border: 1px solid red;
+    width: 30%;
+    
+    p {
+      text-align: center;
+    }
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+}
+
+/* End of features section */
