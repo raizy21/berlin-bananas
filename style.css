@@ -501,6 +501,13 @@ ul {
     margin-left: 5rem;
   }
 
+  .copyright{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* end of footer */
   
   /* Smartphones upright format */
@@ -515,7 +522,6 @@ ul {
     }
   
     .navigation-header {
-      border: 1px solid red;
       color: var(--primary-color);
       font-size: smaller;
       font-weight: 100;
