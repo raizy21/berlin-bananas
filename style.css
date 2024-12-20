@@ -303,7 +303,8 @@ body {
 
   .text-boxes h1,
   .text-boxes h2 {
-    color:#453ee3
+    color:#453ee3;
+    padding: 0.5rem;
   }
 
   .payment-container h1, 
@@ -313,34 +314,55 @@ body {
   .payment-container h5 {
     text-align: center;
   }
-
+  .payment-container h5 {
+  width: 20rem;
+  font-size: medium;
+  }
+  
 .text-boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.payment-container ul {
-  text-align: left;
+ul {
   list-style-type:none;
   font-size: 80% ;
+  padding-bottom: 2rem;
 }
 
-.payment-container li {
-    text-align: center;
+.payment-container .text-boxes .box-container .payment-box-1 li {
+  text-align: left;
+  padding-left: 0.7rem;
+}
+.box-container .payment-box-2 li {
+  text-align: left;
+}
+.box-container .payment-box-3 li {
+  text-align: left;
+  padding-left: 0.7rem;
+}
+
+.box-container{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .payment-box-1 {
+  width: 30%;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   background-color: #aeafaf;
-  gap: 1rem;
-  padding: 75px;
-  margin: 10 px;
+  /* gap: 1rem; */
+  /* padding: 75px;
+  margin: 10px; */
   border-radius: 10px;
 }
 
 .payment-box-2 {
+  width: 30%;
   display: flex;
   flex-direction: row;
   background-color: #fbe886;
@@ -349,31 +371,40 @@ body {
 }
 
 .payment-box-3 {
+  width: 30%;
   display: flex;
   flex-direction: row;
   background-color: #d9456a;
-  gap: 1rem;
+  /* gap: 1rem; */
   border-radius: 10px;
 }
 
 .basic-banana {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .ripe-n-ready {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .banana-royale {
+  border: 1px solid white;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
-  width: 75%;
-  padding: 10 px 20 px;
-  margin: 10 px;
+  width: 200px;
+  height:20px;
+  margin: 10px;
 }
 
 /* End of payment container */
