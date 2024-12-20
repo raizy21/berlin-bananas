@@ -294,6 +294,91 @@ body {
   }
   /* End of events section */
 
+/* Start of payment container*/
+  .payment-container {
+    background-color: #d9456a;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-boxes h1,
+  .text-boxes h2 {
+    color:#453ee3
+  }
+
+  .payment-container h1, 
+  .payment-container h2,
+  .payment-container h3,
+  .payment-container h4,
+  .payment-container h5 {
+    text-align: center;
+  }
+
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-container ul {
+  text-align: left;
+  list-style-type:none;
+  font-size: 80% ;
+}
+
+.payment-container li {
+    text-align: center;
+}
+
+.payment-box-1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #aeafaf;
+  gap: 1rem;
+  padding: 75px;
+  margin: 10 px;
+  border-radius: 10px;
+}
+
+.payment-box-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbe886;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.payment-box-3 {
+  display: flex;
+  flex-direction: row;
+  background-color: #d9456a;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.basic-banana {
+  display: flex;
+  flex-direction: column;
+}
+
+.ripe-n-ready {
+  display: flex;
+  flex-direction: column;
+}
+
+.banana-royale {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 75%;
+  padding: 10 px 20 px;
+  margin: 10 px;
+}
+
+/* End of payment container */
+
   /* footer */
 
   .footer-conatainer {
