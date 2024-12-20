@@ -199,7 +199,8 @@ body {
     flex-direction: column-reverse;
     writing-mode: vertical-lr;
     font-size: 45px;
-    bottom: 0;
+    bottom: 0;;
+    width: 100%;
   }
 
   .video-container h1 {
