@@ -314,6 +314,7 @@ body {
 
   .footer-container-links {
     display: flex;
+    transform: translate(6%, 0);
   }
 
   .footer-container-link {
@@ -321,7 +322,6 @@ body {
     font-size: 1.5rem;
     color: var(--primary-color);
     padding: 6rem;
-   
   }
 
   .footer-container-item {
