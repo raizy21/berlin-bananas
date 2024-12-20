@@ -472,5 +472,71 @@ body {
   }
 
   /* end of footer */
+  
+  /* Smartphones upright format */
+  @media (max-width: 480px) {
+    .navigation {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+      align-items: center;
+    }
+  
+    .navigation-header {
+      border: 1px solid red;
+      color: var(--primary-color);
+      font-size: smaller;
+      font-weight: 100;
+      text-align: center;
+    }
+  
+    .navigation-links {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      justify-content: center;
+      list-style: none;
+      color: var(--primary-color);
+    }
+  
+    .navigation-item {
+      margin-left: 3rem;
+      font-family: "Titillium Web", serif;
+      font-weight: 400;
+    }
+  
+    li:last-child {
+      /* border: 2px solid orange; */
+      padding-right: 8rem;
+    }
+  }
+  
+  /* Smartphones vertical format */
+  @media (max-width: 768px) {
+    
+  }
+  
+  /* Tablets */
+  @media (max-width: 1024px) {
+    
+  }
+  
+  /* Laptops */
+  @media (max-width: 1280px) {
+    
+  }
+  
+  /* wide screens */
+  @media (max-width: 1600px) {
+    
+  }
+  
+  /* End of responsive design */
+  
+  
 }
 /* End of body */
+
+/* Start of responsive design */
