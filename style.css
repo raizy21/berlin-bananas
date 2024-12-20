@@ -294,6 +294,7 @@ body {
   }
   /* End of events section */
 
+
 /* Start of payment container*/
   .payment-container {
     background-color: #d9456a;
@@ -365,7 +366,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .banana-royale {
   display: flex;
   flex-direction: column;
@@ -378,6 +378,50 @@ body {
 }
 
 /* End of payment container */
+
+  /* banana explication  */
+
+  .container-explication {
+    justify-content: center;
+  }
+  .explication-header {
+    font-size: 3rem;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    text-shadow: 2px 2px var(--secondary-color);
+  }
+  .explication-heading {
+  }
+  .container-explication-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3.5rem 15rem 3.5rem 15rem;
+  }
+  .container-explication-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-img-item {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    outline: none;
+    /* align-items: center; */
+  }
+  .container-explication-paragraph {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    color: var(--text-color);
+  }
+  /* end of banana explication */
 
   /* footer */
 
