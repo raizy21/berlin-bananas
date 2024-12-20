@@ -188,7 +188,6 @@ body {
 
   /* Video Container */
   .video-container {
-    display: grid;
     background-color: #d9456a;
     border-color: #453ee3;
     border-radius: 10px;
@@ -199,7 +198,6 @@ body {
     flex-direction: column-reverse;
     writing-mode: vertical-lr;
     font-size: 45px;
-    bottom: 0;;
     width: 100%;
   }
 
