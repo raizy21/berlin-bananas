@@ -14,6 +14,7 @@
   --accent-color: #aeafaf;
   --background-color: #ffffff;
   --text-color: #6b6b6c;
+  --color-border: greenyellow;
 }
 
 body {
@@ -243,7 +244,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 2rem; */
+  gap: 3rem;
 }
 
 .company-image {
@@ -281,7 +282,7 @@ body {
   font-weight: 700;
   margin-bottom: 1.2rem;
   box-shadow: 0 0.2rem 0 0 var(--secondary-color);
-  text-shadow: 2px 2px greenyellow;
+  text-shadow: 2px 2px var(--color-border);
 }
 
 .video-iframe {
@@ -304,7 +305,7 @@ body {
   margin-bottom: 1.2rem;
   font-size: 2rem;
   text-align: center;
-  text-shadow: 2px 2px greenyellow;
+  text-shadow: 2px 2px var(--color-border);
   text-decoration: underline;
 }
 
@@ -333,7 +334,7 @@ body {
   gap: 1.2rem;
 }
 .events-image {
-  border: 2px solid greenyellow;
+  border: 2px solid var(--color-border);
   object-fit: cover;
   max-width: 80%;
   height: auto;
@@ -356,8 +357,69 @@ body {
   text-align: center;
   text-decoration: underline;
 }
-
 /* End of events section */
+
+/* banana explication  */
+.container-explication {
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+.explication-header {
+  font-size: 3rem;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--color-border);
+}
+.explication-heading {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.container-explication-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem 15rem 3rem 15rem;
+}
+
+.container-explication-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+}
+
+.grid-img-item {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  outline: none;
+
+  opacity: 0.5;
+}
+
+.grid-img-item:hover {
+  opacity: 1;
+}
+
+.container-explication-paragraph {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-top: 1.2rem;
+  margin-bottom: 5rem;
+  color: var(--text-color);
+}
+.container-explication-paragraph b {
+  font-weight: 800;
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+/* end of banana explication */
 
 /* Start of payment container*/
 .payment-container {
@@ -473,50 +535,6 @@ ul {
 }
 
 /* End of payment container */
-
-/* banana explication  */
-
-.container-explication {
-  justify-content: center;
-}
-.explication-header {
-  font-size: 3rem;
-  display: flex;
-  /* border: 1px solid red; */
-  justify-content: center;
-  align-items: center;
-  color: var(--primary-color);
-  text-shadow: 2px 2px var(--secondary-color);
-}
-.explication-heading {
-}
-.container-explication-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 3.5rem 15rem 3.5rem 15rem;
-}
-.container-explication-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.grid-img-item {
-  height: 10rem;
-  width: 10rem;
-  border-radius: 50%;
-  outline: none;
-  /* align-items: center; */
-}
-.container-explication-paragraph {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 1.2rem;
-  color: var(--text-color);
-}
-/* end of banana explication */
 
 /* footer */
 
