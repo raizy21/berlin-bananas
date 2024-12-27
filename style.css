@@ -82,7 +82,7 @@ body {
   margin: 2rem auto;
 
   grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: 0.5rem 1fr 1rem 1fr 0.5rem;
+  grid-template-columns: 1fr 2.4fr 0.5fr 1.5fr 1fr;
   background-color: var(--primary-color);
 }
 
@@ -98,7 +98,7 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("images/community-img-1.avif") center no-repeat;
   background-size: cover;
-  margin: 1.2rem 0 0 0;
+  margin: 2rem 0 2rem 0;
 }
 
 .community-subtitle-container {
@@ -125,20 +125,23 @@ body {
 .community-paragraph {
   margin: 1.5rem 0.4rem 1.5rem 0.4rem;
   color: var(--primary-color);
-  font-size: 0.8em;
+  font-size: 1rem;
   font-family: "Titillium Web", serif;
   font-weight: 400;
 }
 
 .community-btn {
-  width: 100%;
+  /* width: 100%; */
   padding: 1rem;
+
+  margin-bottom: 2rem;
+  margin-left: 8rem;
 
   font-size: 1.2rem;
   color: var(--secondary-color);
   border: none;
   background: linear-gradient(
-    to right,
+    to top,
     var(--primary-color),
     var(--secondary-color)
   );
@@ -148,7 +151,9 @@ body {
 }
 
 .community-btn:hover {
-  background: linear-gradient(to left, gold, goldenrod);
+  font-size: 1.5rem;
+
+  background: linear-gradient(to bottom, gold, goldenrod);
 }
 
 .community-btn:active {
@@ -166,12 +171,13 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("images/banana.avif") center no-repeat;
   background-size: cover;
-  margin: 1.2rem 0 0 0;
+  margin: 2rem 0 2rem 0;
+  border-radius: 15%;
 }
 
 .demo-title {
   color: var(--primary-color);
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: "Titillium Web", serif;
@@ -187,14 +193,15 @@ body {
 }
 
 .demo-btn {
-  width: 100%;
   padding: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
 
   font-size: 1.2rem;
   color: var(--secondary-color);
   border: none;
   background: linear-gradient(
-    to right,
+    to bottom,
     var(--primary-color),
     var(--secondary-color)
   );
@@ -204,7 +211,9 @@ body {
 }
 
 .demo-btn:hover {
-  background: linear-gradient(to left, gold, goldenrod);
+  font-size: 1.5rem;
+
+  background: linear-gradient(to bottom, gold, goldenrod);
 }
 
 .demo-btn:active {
