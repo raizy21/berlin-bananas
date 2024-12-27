@@ -265,35 +265,34 @@ body {
 
 /* Video Container */
 .video-container {
-  background-color: #d9456a;
-  border-color: #453ee3;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  background-color: var(--secondary-color);
+
   display: flex;
-  justify-content: space-around;
-  flex-direction: column-reverse;
-  writing-mode: vertical-lr;
-  font-size: 45px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
   width: 100%;
 }
 
-.video-container h1 {
-  color: #453ee3;
+.video-heading {
+  color: var(--primary-color);
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 0.2rem 0 0 var(--secondary-color);
+  text-shadow: 2px 2px #fff;
 }
 
-.vertical-text {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column-reverse;
-  writing-mode: vertical-lr;
-  font-size: 45px;
+.video-iframe {
+  width: 80%;
+  height: 28rem;
+  border: none;
+  margin-bottom: 4rem;
+  border: 2px solid var(--primary-color);
+  overflow: hidden;
 }
 
-.video-container iframe {
-  width: 100%;
-  height: auto;
-}
 /* End of Video Container */
 
 /* events section */
