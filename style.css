@@ -76,11 +76,11 @@ body {
 
 /* header */
 .header {
-  height: 80vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   display: grid;
   /* border: 12px solid red; */
-  margin: 2rem auto;
+  margin: 2rem 0;
 
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: 1fr 2.4fr 0.5fr 1.5fr 1fr;
@@ -108,7 +108,7 @@ body {
 
 .community-subtitle {
   color: var(--primary-color);
-  font-size: 1.2;
+  font-size: 1.5rem;
   margin-left: 1.2rem;
   font-family: "Titillium Web", serif;
   font-weight: 600;
@@ -116,7 +116,7 @@ body {
 
 .community-title {
   color: var(--primary-color);
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: "Titillium Web", serif;
@@ -126,7 +126,7 @@ body {
 .community-paragraph {
   margin: 1.5rem 0.4rem 1.5rem 0.4rem;
   color: var(--primary-color);
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: "Titillium Web", serif;
   font-weight: 400;
 }
@@ -138,7 +138,7 @@ body {
   margin-bottom: 2rem;
   margin-left: 3rem;
 
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   border: none;
   background: linear-gradient(
@@ -152,7 +152,7 @@ body {
 }
 
 .community-btn:hover {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 
   background: linear-gradient(to bottom, gold, goldenrod);
 }
@@ -178,7 +178,7 @@ body {
 
 .demo-title {
   color: var(--primary-color);
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: "Titillium Web", serif;
@@ -188,7 +188,7 @@ body {
 .demo-paragraph {
   margin: 1.5rem 0.4rem 1.5rem 0.4rem;
   color: var(--primary-color);
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: "Titillium Web", serif;
   font-weight: 400;
 }
@@ -198,7 +198,7 @@ body {
   margin-bottom: 2rem;
   margin-left: 3rem;
 
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   border: none;
   background: linear-gradient(
@@ -212,7 +212,7 @@ body {
 }
 
 .demo-btn:hover {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 
   background: linear-gradient(to bottom, gold, goldenrod);
 }
@@ -685,4 +685,152 @@ body {
   /* end of navigation */
 }
 
+@media (max-width: 1500px) {
+  /* header */
+  .header {
+    /* border: 1px solid red; */
+    display: grid;
+
+    grid-template-rows: 0.2fr 1fr 0.2fr 1fr 0.2fr;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    height: 100vh;
+  }
+
+  .community {
+    /* border: 12px solid green; */
+    height: 50%;
+    grid-column: 2/3;
+    grid-row: 1/5;
+  }
+
+  .community-subtitle {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .community-title {
+    font-size: 3.5rem;
+  }
+
+  .community-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .community-btn {
+    font-size: 1.2rem;
+  }
+
+  .community-btn:hover {
+    font-size: 1.3rem;
+  }
+
+  .demo {
+    /* border: 12px solid blue; */
+
+    grid-column: 2/3;
+    grid-row: 4/6;
+    border-radius: 1rem;
+
+    /* display: none; */
+  }
+
+  .demo-title {
+    font-size: 2rem;
+  }
+
+  .demo-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .demo-btn {
+    font-size: 1.3rem;
+  }
+
+  .demo-btn:hover {
+    font-size: 1.4rem;
+  }
+
+  /* end of header */
+}
+
+@media (max-width: 1200px) {
+  /* header */
+
+  .community-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .community-title {
+    font-size: 3rem;
+  }
+
+  .community-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .community-btn {
+    font-size: 1.2rem;
+  }
+
+  .community-btn:hover {
+    font-size: 1.3rem;
+  }
+
+  .demo-title {
+    font-size: 3rem;
+  }
+
+  .demo-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .demo-btn {
+    font-size: 1.2rem;
+  }
+
+  .demo-btn:hover {
+    font-size: 1.3rem;
+  }
+    /* end of header */
+}
+
+@media (max-width: 1000px) {
+
+  
+  /* header */
+
+  
+  .community-title {
+    font-size: 2rem;
+  }
+
+  .community-paragraph {
+    font-size: 1rem;
+  }
+
+  .community-btn {
+    font-size: 1rem;
+  }
+
+  .community-btn:hover {
+    font-size: 1.1rem;
+  }
+
+  .demo-title {
+    font-size: 2rem;
+  }
+
+  .demo-paragraph {
+    font-size: 1rem;
+  }
+
+  .demo-btn {
+    font-size: 1rem;
+  }
+
+  .demo-btn:hover {
+    font-size: 1.1rem;
+  }
+    /* end of header */
+}
 /* end of responsive */
