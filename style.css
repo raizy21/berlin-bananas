@@ -24,14 +24,13 @@ body {
 
 /* navigation */
 .navigation {
-  margin-left: 1rem;
   width: 100%;
-  height: 0.6rem;
   display: flex;
   flex-direction: row;
   font-size: 2rem;
   align-items: center;
   margin-top: 2rem;
+  /* border: 1px solid red; */
 }
 
 .navigation-header {
@@ -40,13 +39,14 @@ body {
   font-weight: 300;
   letter-spacing: 0.1rem;
   text-align: center;
+  padding-left: 4rem;
 }
 
 .navigation-links {
   display: flex;
   flex-direction: row;
-  width: 70%;
   justify-content: end;
+
   list-style: none;
 }
 
@@ -54,7 +54,7 @@ body {
   margin-left: 1.2rem;
   font-family: "Titillium Web", serif;
   font-weight: 400;
-  /* margin-top: 2rem; */
+
   font-size: 1.8rem;
 }
 
@@ -69,8 +69,8 @@ body {
   text-decoration: none;
 }
 
-.navigation-item:last-child {
-  padding-right: 4rem;
+.navigation-item:first-child {
+  padding-left: 40rem;
 }
 /* end of navigation */
 
@@ -598,84 +598,91 @@ body {
 
 /* end of footer */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* CSS rules for extra small screens */
+/* responsive */
 
-  html {
-    font-size: 8px;
-  }
-  .window {
-    min-width: 375px;
-  }
-
+@media (max-width: 1750px) {
   /* navigation */
-  .navigation {
-    margin-left: 15rem;
-    height: 6rem;
 
-    font-size: 1.2rem;
+  .navigation-header {
+    font-size: 3.8rem;
+    padding-left: 2rem;
   }
 
   .navigation-item {
-    margin-top: 2.2rem;
+    font-size: 1.8rem;
   }
 
-  li:last-child {
-    padding-right: 9rem;
+  .navigation-item:hover {
+    font-size: 1.9rem;
   }
 
-  .link-item {
-    font-size: 1.1rem;
+  .navigation-item:first-child {
+    padding-left: 30rem;
   }
   /* end of navigation */
+}
 
-  /* header */
-  .header {
-    /* height: 100vh; */
-    width: 100vw;
+@media (max-width: 1600px) {
+  /* navigation */
+  .navigation-item:first-child {
+    padding-left: 20rem;
+  }
+  /* end of navigation */
+}
+
+@media (max-width: 1400px) {
+  /* navigation */
+
+  .navigation-item:first-child {
+    padding-left: 10rem;
   }
 
-  .banner {
-    height: 25rem;
+  /* end of navigation */
+}
+
+@media (max-width: 1210px) {
+  /* navigation */
+
+  .navigation-header {
+    font-size: 2rem;
+    padding-left: 1rem;
   }
 
-  .banner-heading {
-    font-size: 2.2rem;
+  .navigation-item {
+    font-size: 1.4rem;
   }
 
-  .banner-paragraph {
+  .navigation-item:hover {
     font-size: 1.6rem;
   }
 
-  .banner-button {
-    width: 6rem;
-    padding: 0.8rem 1rem;
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-    margin-top: 0.2rem;
-    border-radius: 4rem;
+  .navigation-item:first-child {
+    padding-left: 18rem;
+  }
+  /* end of navigation */
+}
+
+@media (max-width: 904px) {
+  /* navigation */
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 3rem;
   }
 
-  /* end of header */
+  .navigation-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navigation-item:first-child {
+    padding-left: 0;
+  }
+
+  /* end of navigation */
 }
 
-/* Small devices (portrait tablets and large phones, 600px to 768px) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  /* CSS rules for small screens */
-}
-
-/* Medium devices (landscape tablets, 768px to 992px) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  /* CSS rules for medium screens */
-}
-
-/* Large devices (laptops/desktops, 992px to 1200px) */
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  /* CSS rules for large screens */
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1201px) {
-  /* CSS rules for extra large screens */
-}
+/* end of responsive */
