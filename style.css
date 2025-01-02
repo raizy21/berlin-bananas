@@ -571,8 +571,7 @@ body {
   flex-direction: row;
   list-style: none;
 }
-.footer-container-img {
-}
+
 
 .footer-image {
   width: 6rem;
@@ -731,6 +730,55 @@ body {
   html {
     font-size: 45%;
   }
+
+  /* start of banana-connections section */
+  .banana-connections-heading {
+    grid-row: 1/1;
+    grid-column: 2/3;
+    z-index: 1;
+    font-size: 3rem;
+  }
+
+  .company-images {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .company-image {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .company-image-1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    /* display: none; */
+  }
+  .company-image-2 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    /* display: none; */
+  }
+  .company-image-3 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    z-index: 1;
+    /* display: none; */
+  }
+  .company-image-4 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    /* display: none; */
+  }
+  .company-image-5 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    /* display: none; */
+  }
+  /* end of banana-connections section */
 }
 
 @media (max-width: 560px) {
